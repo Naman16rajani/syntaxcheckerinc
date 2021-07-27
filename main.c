@@ -86,5 +86,6 @@ int main()
 
       closedir(files);
    }
+   fclose(res);
    return (0);
 }
